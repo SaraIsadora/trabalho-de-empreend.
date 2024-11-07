@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #333;
+    color: #020202;
     background-color: #f7f7f7;
     line-height: 1.6;
 }
@@ -21,7 +21,7 @@ header {
 }
 
 header h1 {
-    font-size: 2rem;
+    font-size: 5rem;
     margin-bottom: 10px;
 }
 
@@ -39,7 +39,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #36211c;
+    color: #D5B7AF;
 }
 
 /* Banner */
@@ -91,7 +91,7 @@ header nav a:hover {
     padding: 20px;
     width: 200px;
     border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px #B27B6C;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -191,4 +191,52 @@ footer {
         width: 90%;
         max-width: 320px;
     }
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+.produto-detalhes {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-principal img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.info-produto {
+    flex: 1;
+}
+
+.info-produto h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.preco {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.botao-comprar {
+    background-color: #57362E;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.botao-comprar:hover {
+    background-color: #ffaa00;
 }
