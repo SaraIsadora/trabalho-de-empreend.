@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+/* Definir a fonte Aboreto para o título específico */
+.bem-vindo-titulo {
+  font-family: "Aboreto", system-ui, "Georgia", "Times", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
     font-family: Arial, sans-serif;
     color: #020202;
