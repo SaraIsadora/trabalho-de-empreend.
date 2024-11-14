@@ -23,12 +23,12 @@ body {
 header {
     background-color:#36211c;
     color: #fff;
-    padding: 5px;
+    padding: 8px;
     text-align: center;
 }
 
 header h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     margin-bottom: 10px;
 }
 
@@ -51,13 +51,12 @@ header nav a:hover {
 
 /* Banner */
 .banner {
-    background-image: url('img/100+\ Marble\ Texture\ Aesthetic\ Backgrounds\ and\ Illustrations\ \(Vol_\ 2\).jpeg');
+    background-image: url('img/photo-1677155875750-9eb42b39f4e5.jpeg');
     background-size:cover;
-    color: #fff;
+    color: #36211c;
     text-align: center;
     padding: 80px 30px;
     background-position: center;
-    border-radius: 20px;
 }
 .banner h2 {
     font-size: 3rem;
@@ -76,7 +75,7 @@ header nav a:hover {
 }
 
 .banner button:hover {
-    background-color: #ffaa00;
+    background-color: #d7c1a3;
 }
 
 /* Produtos */
@@ -245,5 +244,5 @@ footer {
 }
 
 .botao-comprar:hover {
-    background-color: #ffaa00;
+    background-color: #d7c1a3;
 }
